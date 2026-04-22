@@ -192,7 +192,7 @@ export default function Portfolio() {
           <div style={s.heroVisual}>
             <div style={s.avatarRing}>
               <div style={s.avatarInner}>
-                <span style={{ fontSize: 72 }}>👩‍💻</span>
+                <span ><img src="src\assets\Kani_pic.jpeg" alt="" /></span>
               </div>
             </div>
             <div style={s.floatBadge1}>☕ Java</div>
