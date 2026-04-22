@@ -391,7 +391,7 @@ const styles = {
   accent: { background: "linear-gradient(135deg, #a8edea, #6b5ce7)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" },
 
   skillsGrid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 20, alignItems: "stretch" },
-  skillCard: { background: "#fff", borderRadius: 20, padding: "24px", border: "1px solid rgba(0,0,0,0.06)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)", transition: "transform 0.2s, box-shadow 0.2s", height: "100%" },
+  skillCard: { background: "#fff", borderRadius: 20, padding: "24px", border: "1px solid rgba(0,0,0,0.06)", boxShadow: "0 2px 16px rgba(0,0,0,0.04)", transition: "transform 0.2s, box-shadow 0.2s", height: "280px", overflowY: "auto" },
   skillCat: { fontSize: 13, fontWeight: 700, letterSpacing: 2, textTransform: "uppercase", color: "#6b5ce7", marginBottom: 14 },
   skillTags: { display: "flex", flexWrap: "wrap", gap: 8 },
   skillTag: { fontSize: 13, padding: "4px 12px", background: "rgba(168,237,234,0.25)", borderRadius: 20, fontWeight: 500, color: "#2a5a57" },
