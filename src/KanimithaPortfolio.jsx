@@ -3,13 +3,22 @@ import { useState, useEffect, useRef } from "react";
 const NAV_LINKS = ["About", "Skills", "Experience", "Projects", "Certifications", "Contact"];
 
 const SKILLS = {
-  Languages: ["Java"],
-  "Web & UI": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "Figma", "Miro"],
-  Backend: ["Spring Boot", "MySQL", "DevOps"],
-  "Tools & Security": ["Linux", "VS Code", "Git", "GitHub", "GitLab", "Jenkins"],
+  Languages: ["Java", "JavaScript"],
+  Frontend: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React.js", "Responsive Design"],
+  Backend: ["Node.js", "MySQL", "MongoDB", "RESTful APIs"],
+  "Tools & Deployment": ["Linux", "VS Code", "Git", "GitHub", "GitLab", "Jenkins", "Figma", "Miro", "Postman", "Render", "Vercel", "Netlify", "MongoDB Atlas"],
 };
 
 const PROJECTS = [
+  {
+    name: "SHOPWAVE",
+    tag: "Full Stack · E-Commerce Platform",
+    emoji: "🛒",
+    desc: "A complete e-commerce platform with product catalog, shopping cart, wishlist, and admin dashboard. Features JWT authentication, bcrypt password hashing, and RESTful APIs.",
+    stack: ["Node.js", "MongoDB", "JWT", "HTML5", "CSS3", "JavaScript", "Render"],
+    color: "#a8edea",
+    link: "https://shopwave-2wet.onrender.com/",
+  },
   {
     name: "PORTRAIT VIEW",
     tag: "Web Development · Frontend",
@@ -228,7 +237,7 @@ export default function Portfolio() {
                   Gained hands-on experience in full stack development, working with frontend technologies and backend frameworks. Contributed to real-world projects spanning web development.
                 </p>
                 <div style={s.skillTags}>
-                  {["HTML", "CSS", "JavaScript", "Java", "Spring Boot", "MySQL"].map(t => <span key={t} style={s.skillTag}>{t}</span>)}
+                  {["HTML", "CSS", "JavaScript", "Java", "Node.js", "MySQL"].map(t => <span key={t} style={s.skillTag}>{t}</span>)}
                 </div>
               </div>
             </div>
