@@ -20,6 +20,15 @@ const PROJECTS = [
     link: "https://shopwave-2wet.onrender.com/",
   },
   {
+    name: "Logistics Serviceability Engine",
+    tag: "Backend Project",
+    emoji: "🚚",
+    desc: "The Logistics Serviceability Engine determines whether a shipment can be delivered between two PIN codes and classifies the movement based on business rules.",
+    stack: ["Node.js", "Express.js", "PostgreSQL", "Postman", "Swagger", "Multer + CSV"],
+    color: "#ee65d7",
+    link: "https://github.com/Kanimitha-S/Logistics_Serviceability_Engine",
+  },
+  {
     name: "PORTRAIT VIEW",
     tag: "Web Development · Frontend",
     emoji: "🖼️",
